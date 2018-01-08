@@ -20,6 +20,7 @@ public class BaseTests{
         //Create a Chrome driver. All test and page classes use this driver.
         //ChromeOptions options = new ChromeOptions();
         //options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\tools\\chromedriver.exe");
         driver = new ChromeDriver();
 
         //Maximize Window
